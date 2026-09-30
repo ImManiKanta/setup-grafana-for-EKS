@@ -114,7 +114,7 @@ Port-forward the services to your local machine. Run each command in its own ter
 kubectl port-forward svc/monitoring-grafana 3000:80 -n monitoring
 ```
 
-Open <http://127.0.0.1:3000>
+Open <http://localhost:3000>
 
 **Prometheus**
 
@@ -122,7 +122,7 @@ Open <http://127.0.0.1:3000>
 kubectl port-forward svc/prometheus-operated 9090:9090 -n monitoring
 ```
 
-Open <http://127.0.0.1:9090>
+Open <http://localhost:9090>
 
 ### Grafana login
 
